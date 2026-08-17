@@ -1,3 +1,5 @@
+// Print sum of all numbers between 1 to 100. 
+
 public class sum_1_to_100 {
     public static void main(String[] args) {
         int sum = 0;
