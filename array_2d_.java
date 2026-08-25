@@ -1,3 +1,4 @@
+// This program demonstrates the creation and manipulation of a 2D array in Java. It initializes a 3x3 array, fills it with the sum of its indices, and then prints the elements of the array to the console.
 public class array_2d_ {
     public static void main(String[] args) {
         int[][] arr = new int[3][3]; 

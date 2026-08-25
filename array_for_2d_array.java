@@ -1,3 +1,5 @@
+// Java program to demonstrate the use of for loop in a 2D array taking user input for the elements of the array. It prompts the user to enter the number of rows and columns, then fills the array with user-provided values, and finally prints the elements of the array to the console.
+
 import java.util.*;
 public class array_for_2d_array {
     public static void main(String[] args) {
@@ -7,7 +9,7 @@ public class array_for_2d_array {
         System.out.print("Enter the number of columns: ");
         int cols = sc.nextInt();
 
-        int[][] arr = new int[rows][cols];
+        int arr[][] = new int[rows][cols];
 
         System.out.println("Enter the elements of the 2D array:");
         for (int i = 0; i < rows; i++) {
