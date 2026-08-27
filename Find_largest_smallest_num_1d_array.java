@@ -15,7 +15,8 @@ public class Find_largest_smallest_num_1d_array {
         int largest = arr[0];
         int smallest = arr[0];
 
-        for (int i = 1; i < arr.length; i++) {
+
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] > largest) {
                 largest = arr[i];
             }
