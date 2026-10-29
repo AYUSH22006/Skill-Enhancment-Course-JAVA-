@@ -1,0 +1,15 @@
+SINGLE            MULTILEVEL          HIERARCHICAL
+  A                   A                    A
+  ↑                   ↑                  /   \
+  B                   B                 B     C
+                      ↑
+                      C
+
+MULTIPLE (Java: interfaces only)     HYBRID
+   A   B                                A
+    \ /                                 ↑
+     C  ← not allowed with classes      B
+                                      /   \
+                                     C     D
+                                      \   /
+                                       E   ← needs interface
